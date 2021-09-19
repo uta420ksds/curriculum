@@ -1,7 +1,8 @@
 {
     "codic.case": "camelCase",
     "java.project.sourcePaths": [
+        "1-5",
         "1-1",
-        "1-5"
+        "Check1"
     ]
 }
