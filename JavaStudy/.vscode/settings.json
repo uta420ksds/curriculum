@@ -1,3 +1,7 @@
 {
-    "codic.case": "camelCase"
+    "codic.case": "camelCase",
+    "java.project.sourcePaths": [
+        "1-1",
+        "1-5"
+    ]
 }
