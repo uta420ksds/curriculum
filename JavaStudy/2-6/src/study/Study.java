@@ -28,8 +28,7 @@ public class Study {
 
         // 問② 「(Calendar.MONTH) + 数値」の処理は、想定していない値となる可能性があります。
         // その理由をコメントへ記述してください。
-        // カレンダークラスではJANUARY(実値=0)〜UNDECIMBER(実値=11) まで定義が存在し、
-        // 実際の月の値は、「-1」の値を保持しているため
+        // あくまでgetメソッドでは「月の値＋数値」の値を取得しているだけなので表示が１３月、１４月といった表示になってしまう場合があるし、年の加減計算を行うわけではないから
         System.out.println(calendar.get(Calendar.YEAR));
         System.out.println(calendar.get(Calendar.MONTH) + 1);
         System.out.println(calendar.get(Calendar.DATE));
